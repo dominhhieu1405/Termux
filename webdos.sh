@@ -28,7 +28,7 @@ bc="\033[0m"
 
 echo -e "$Cafe##############################################################################$nc"
 
-echo -e "$Cafe##   \e[31m▄▄      ▄▄  \e[5msurya    ▄▄        ▄▄▄▄▄       ▄▄▄▄     $Cafe                   ##"
+echo -e "$Cafe##   \e[31m▄▄      ▄▄  \e[5msurya     ▄▄        ▄▄▄▄▄       ▄▄▄▄     $Cafe                   ##"
 
 echo -e "$Cafe##   ██      ██           ██        ██▀▀▀██    ██▀▀██                  $Cafe     ##"
 
@@ -44,21 +44,23 @@ echo -e  "$Cafe##   \e[31m▀▀▀  ▀▀▀    ▀▀▀▀▀   ▀▀ ▀�
 
 echo -e "$Cafe##############################################################################$nc"
 
-echo -e "##$red-------------MOST POWERFULL WEBSITE DDOS ATTACKER------------BY SURYA$nc     ##"
+echo -e "##$red-----------MOST POWERFULL WEBSITE DDOS ATTACKER-----------BY SURYA Vh by MHIT$nc     ##"
 
 echo -e "$Cafe##############################################################################$nc"
 
 echo -e "$cyan Author :-SURAJ CHAVDA$nc"
 
+echo -e "$cyan Việt Hóa: MinhHieu$nc"
+
                                                                                 
 
 if xterm -version &>/dev/null; then
 
-    echo -e "$purple xterm is installed ✅ $nc"
+    echo -e "$purple Đã tải xterm ✅ $nc"
 
 else
 
-echo -e "\e[94mXTERM Is Installing.......\e[0m"
+echo -e "\e[94mĐang tải XTERM .......\e[0m"
 
 progressbar()
 
@@ -92,17 +94,17 @@ done
 
 kill $pid > /dev/null 2>&1
 
-echo $'\n*\n*\n\e[97mXTERM Successfully Installed on Your OS\e[0m'
+echo $'\n*\n*\n\e[97mĐã tải XTERM thành công\e[0m'
 
 fi  
 
 if command -v python3 &>/dev/null; then
 
-    echo -e "$purple Python 3 is installed ✅$nc"
+    echo -e "$purple Đã tải Python 3 ✅$nc"
 
 else
 
-echo -e "\e[94mPython3 Is Installing.......\e[0m"
+echo -e "\e[94mĐang tải Python3.......\e[0m"
 
 progressbar()
 
@@ -136,15 +138,15 @@ done
 
 kill $pid > /dev/null 2>&1 
 
-echo $'\n*\n*\n\e[97mPython3 Successfully Installed on Your OS\e[0m'
+echo $'\n*\n*\n\e[97mĐã tải Python3 thành công\e[0m'
 
 fi
 
-read -p $'\033[0;37mEnter The Website\e[0m     :- ' web
+read -p $'\033[0;37mNhập website \e[0m     :- ' web
 
-read -p $'\033[0;37mEnter The Port  \e[0m      :- ' port
+read -p $'\033[0;37mNhập Port  \e[0m      :- ' port
 
-read -p $'\033[0;37mEnter The Thread[133]\e[0m :- ' thread
+read -p $'\033[0;37mNhập số lần tấn công[133]\e[0m :- ' thread
 
 echo "##################################################################"
 
